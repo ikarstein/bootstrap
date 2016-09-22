@@ -103,7 +103,8 @@ angular.module('ui.bootstrap.tabs', [])
     scope: {},
     bindToController: {
       active: '=?',
-      type: '@'
+      type: '@',
+      additionalClasses: '@'
     },
     controller: 'UibTabsetController',
     controllerAs: 'tabset',
